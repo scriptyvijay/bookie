@@ -4,7 +4,9 @@ const Navbar = () => {
 	return (
 		<div className="navbar">
 			<div className="navContainer">
-				<span className="logo">Bookie</span>
+				<a href="/" style={{ color: "white" }}>
+					<span className="logo">Bookie</span>
+				</a>
 				<div className="navItems">
 					<button className="navButton">Register</button>
 					<button className="navButton">Login</button>
